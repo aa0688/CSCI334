@@ -1,0 +1,131 @@
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f8fa;
+  color: #222;
+}
+
+header {
+  background: #2d3e50;
+  color: #fff;
+  padding: 30px 0 10px 0;
+}
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+header .tagline {
+  font-size: 1.2rem;
+  margin: 8px 0 16px 0;
+  color: #b0c4d6;
+}
+nav {
+  margin-bottom: 10px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 18px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+nav a:hover {
+  color: #ffd166;
+}
+.hero {
+  background: linear-gradient(90deg, #ffd166 0%, #f7b267 100%);
+  color: #2d3e50;
+  padding: 60px 0 40px 0;
+  text-align: center;
+}
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 18px;
+}
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 28px;
+}
+.cta-btn {
+  background: #2d3e50;
+  color: #fff;
+  padding: 14px 36px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.cta-btn:hover {
+  background: #1a2533;
+}
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.features, .how-it-works, .contact {
+  padding: 40px 0;
+}
+.features h3, .how-it-works h3, .contact h3 {
+  font-size: 1.6rem;
+  margin-bottom: 18px;
+  color: #2d3e50;
+}
+.features ul {
+  list-style: disc inside;
+  padding-left: 0;
+  font-size: 1.1rem;
+}
+.features li {
+  margin-bottom: 10px;
+}
+.how-it-works .steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: space-between;
+}
+.how-it-works .step {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.07);
+  padding: 24px 18px;
+  flex: 1 1 180px;
+  min-width: 180px;
+  margin-bottom: 16px;
+}
+.how-it-works .step h4 {
+  margin-top: 0;
+  color: #f7b267;
+  font-size: 1.2rem;
+}
+.contact a {
+  color: #2d3e50;
+  text-decoration: underline;
+}
+footer {
+  background: #2d3e50;
+  color: #fff;
+  text-align: center;
+  padding: 18px 0;
+  font-size: 1rem;
+  margin-top: 30px;
+}
+@media (max-width: 700px) {
+  .how-it-works .steps {
+    flex-direction: column;
+    gap: 0;
+  }
+  .container {
+    width: 98%;
+  }
+} 
